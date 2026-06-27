@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NomadScan</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0b0f1a;
+      color: white;
+      text-align: center;
+    }
+
+    header {
+      padding: 40px 20px;
+    }
+
+    h1 {
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 18px;
+      color: #b0b0b0;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 25px;
+      background: #00c2ff;
+      color: #000;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+
+    .container {
+      margin-top: 60px;
+      padding: 20px;
+    }
+
+    .card {
+      background: #141b2d;
+      padding: 20px;
+      margin: 20px auto;
+      max-width: 500px;
+      border-radius: 12px;
+    }
+
+    footer {
+      margin-top: 60px;
+      padding: 20px;
+      font-size: 12px;
+      color: #666;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>NomadScan</h1>
+    <p>Transmita o mundo de qualquer lugar</p>
+    <a class="btn" href="#">Entrar na lista de espera</a>
+  </header>
+
+  <div class="container">
+
+    <div class="card">
+      <h2>🚁 Transmissão ao vivo</h2>
+      <p>Conecte drones e dispositivos para transmitir imagens em tempo real.</p>
+    </div>
+
+    <div class="card">
+      <h2>🌍 Exploração global</h2>
+      <p>Compartilhe o mundo em tempo real com qualquer pessoa, em qualquer lugar.</p>
+    </div>
+
+    <div class="card">
+      <h2>⚡ Tecnologia simples</h2>
+      <p>Uma plataforma leve, rápida e feita para criadores.</p>
+    </div>
+
+  </div>
+
+  <footer>
+    © 2026 NomadScan - Todos os direitos reservados
+  </footer>
+
+</body>
+</html>
